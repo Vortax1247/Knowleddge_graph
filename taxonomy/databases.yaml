@@ -1,0 +1,237 @@
+items:
+  SQL:
+    aliases:
+      - Structured Query Language
+    domains:
+      - Data Science
+      - Data Engineering
+      - Analytics
+    related:
+      - PostgreSQL
+      - MySQL
+      - SQLite
+      - DuckDB
+      - BigQuery
+      - Snowflake
+
+  PostgreSQL:
+    aliases:
+      - Postgres
+    type:
+      - Relational Database
+    domains:
+      - Data Engineering
+      - Analytics
+    related:
+      - SQL
+      - MySQL
+      - SQLite
+      - DuckDB
+      - TimescaleDB
+
+  MySQL:
+    aliases:
+      - MariaDB
+    type:
+      - Relational Database
+    domains:
+      - Data Engineering
+      - Web Analytics
+    related:
+      - SQL
+      - PostgreSQL
+      - SQLite
+
+  SQLite:
+    aliases: []
+    type:
+      - Embedded Database
+    domains:
+      - Data Science
+      - Analytics
+    related:
+      - SQL
+      - DuckDB
+      - PostgreSQL
+
+  DuckDB:
+    aliases: []
+    type:
+      - Analytical Database
+    domains:
+      - Data Science
+      - Analytics
+      - Data Engineering
+    related:
+      - SQL
+      - SQLite
+      - PostgreSQL
+
+  MongoDB:
+    aliases: []
+    type:
+      - NoSQL Database
+    domains:
+      - Data Engineering
+      - Data Science
+    related:
+      - JSON
+      - Python
+      - Spark
+
+  Redis:
+    aliases: []
+    type:
+      - Key-Value Store
+    domains:
+      - Data Engineering
+      - MLOps
+    related:
+      - Caching
+      - Streaming
+      - Vector Database
+
+  Elasticsearch:
+    aliases: []
+    type:
+      - Search Engine
+    domains:
+      - NLP
+      - Search
+      - Analytics
+    related:
+      - Kibana
+      - Log Analysis
+      - Vector Search
+
+  Neo4j:
+    aliases: []
+    type:
+      - Graph Database
+    domains:
+      - Knowledge Graphs
+      - Graph Analytics
+    related:
+      - Cypher
+      - Graph Modeling
+
+  BigQuery:
+    aliases: []
+    type:
+      - Cloud Data Warehouse
+    domains:
+      - Analytics
+      - Business Intelligence
+    related:
+      - SQL
+      - Snowflake
+      - dbt
+
+  Snowflake:
+    aliases: []
+    type:
+      - Cloud Data Warehouse
+    domains:
+      - Analytics
+      - Data Engineering
+    related:
+      - SQL
+      - BigQuery
+      - dbt
+
+  Oracle:
+    aliases:
+      - Oracle Database
+    type:
+      - Relational Database
+    domains:
+      - Data Engineering
+      - Enterprise Analytics
+    related:
+      - SQL
+      - PostgreSQL
+      - MySQL
+
+  MariaDB:
+    aliases: []
+    type:
+      - Relational Database
+    domains:
+      - Data Engineering
+      - Web Analytics
+    related:
+      - SQL
+      - MySQL
+      - PostgreSQL
+
+  TimescaleDB:
+    aliases: []
+    type:
+      - Time-Series Database
+    domains:
+      - Time Series
+      - Data Engineering
+    related:
+      - PostgreSQL
+      - SQL
+      - Prometheus
+
+  Cassandra:
+    aliases: []
+    type:
+      - Distributed Database
+    domains:
+      - Data Engineering
+      - Big Data
+    related:
+      - Spark
+      - Kafka
+      - NoSQL
+
+  InfluxDB:
+    aliases: []
+    type:
+      - Time-Series Database
+    domains:
+      - Time Series
+      - IoT
+    related:
+      - Grafana
+      - Prometheus
+      - Telegraf
+
+  CouchDB:
+    aliases: []
+    type:
+      - NoSQL Database
+    domains:
+      - Data Engineering
+      - Web Applications
+    related:
+      - JSON
+      - MongoDB
+      - REST API
+
+  DynamoDB:
+    aliases: []
+    type:
+      - NoSQL Database
+    domains:
+      - Cloud
+      - Data Engineering
+    related:
+      - AWS
+      - Key-Value Store
+      - Redis
+
+  HBase:
+    aliases: []
+    type:
+      - Wide-Column Store
+    domains:
+      - Big Data
+      - Data Engineering
+    related:
+      - Hadoop
+      - Spark
+      - NoSQL

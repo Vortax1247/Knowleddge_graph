@@ -1,0 +1,1296 @@
+# =============================================================================
+# missions.yaml — Missions typiques du métier Data Scientist
+# =============================================================================
+# Une "mission" est une tâche ou un livrable concret confié à un data
+# scientist dans le cadre d'un poste ou d'une prestation.
+# Lot 1 — Cadrage, gouvernance, collecte de données
+# =============================================================================
+
+Business Problem Framing:
+  aliases:
+    - Cadrage de problème métier
+  category: Scoping
+  domains:
+    - Business Intelligence
+  skills:
+    - Business Requirements Gathering
+    - KPI Definition
+  level: intermediate
+
+Feasibility Study:
+  aliases:
+    - Étude de faisabilité
+  category: Scoping
+  domains:
+    - Business Intelligence
+  skills:
+    - Business Problem Framing
+  level: intermediate
+
+Data Audit:
+  aliases:
+    - Audit de données
+  category: Scoping
+  domains:
+    - Data Engineering
+  skills:
+    - Data Quality Monitoring
+    - Data Profiling
+  level: beginner
+
+ROI Analysis for Data Projects:
+  aliases:
+    - Analyse de retour sur investissement
+  category: Scoping
+  domains:
+    - Business Intelligence
+  skills:
+    - KPI Definition
+  level: intermediate
+
+Data Source Identification:
+  aliases:
+    - Identification des sources de données
+  category: Data Collection
+  domains:
+    - Data Engineering
+  skills:
+    - API Consumption
+    - SQL Querying
+  level: beginner
+
+Data Collection Pipeline Setup:
+  aliases:
+    - Mise en place d'un pipeline de collecte
+  category: Data Collection
+  domains:
+    - Data Engineering
+  skills:
+    - Web Scraping
+    - API Consumption
+    - ETL Development
+  level: intermediate
+
+Third-Party Data Integration:
+  aliases:
+    - Intégration de données tierces
+  category: Data Collection
+  domains:
+    - Data Engineering
+  skills:
+    - API Consumption
+    - Data Pipeline Design
+  level: intermediate
+
+Survey Design and Analysis:
+  aliases:
+    - Conception et analyse d'enquête
+  category: Data Collection
+  domains:
+    - Data Analysis
+  skills:
+    - Survey Data Processing
+  level: beginner
+
+Data Dictionary Creation:
+  aliases:
+    - Création de dictionnaire de données
+  category: Data Governance
+  domains:
+    - Data Engineering
+  skills:
+    - Data Governance
+    - Data Catalog Management
+  level: beginner
+
+GDPR Compliance Assessment:
+  aliases:
+    - Évaluation de conformité RGPD
+  category: Data Governance
+  domains:
+    - Data Engineering
+  skills:
+    - Data Anonymization
+    - Data Governance
+  level: advanced
+
+Data Anonymization Project:
+  aliases:
+    - Projet d'anonymisation de données
+  category: Data Governance
+  domains:
+    - Data Engineering
+  skills:
+    - Data Anonymization
+  level: intermediate
+
+Master Data Management:
+  aliases:
+    - Gestion des données de référence
+  category: Data Governance
+  domains:
+    - Data Engineering
+  skills:
+    - Data Governance
+    - Data Catalog Management
+  level: advanced
+
+# =============================================================================
+# Lot 2 — Data Engineering & Infrastructure
+# =============================================================================
+
+ETL Pipeline Development:
+  aliases:
+    - Développement de pipeline ETL
+  category: Data Engineering
+  domains:
+    - Data Engineering
+  skills:
+    - ETL Development
+    - Pipeline Orchestration
+  level: intermediate
+
+Data Warehouse Migration:
+  aliases:
+    - Migration d'entrepôt de données
+  category: Data Engineering
+  domains:
+    - Data Engineering
+  skills:
+    - Data Warehousing
+  level: advanced
+
+Database Schema Design:
+  aliases:
+    - Conception de schéma de base de données
+  category: Data Engineering
+  domains:
+    - Data Engineering
+  skills:
+    - Database Design
+    - Data Modeling
+  level: intermediate
+
+Big Data Infrastructure Setup:
+  aliases:
+    - Mise en place d'infrastructure Big Data
+  category: Data Engineering
+  domains:
+    - Big Data
+  skills:
+    - Big Data Processing
+    - Distributed Computing
+  level: advanced
+
+Real-Time Data Streaming Pipeline:
+  aliases:
+    - Pipeline de streaming temps réel
+  category: Data Engineering
+  domains:
+    - Big Data
+  skills:
+    - Streaming Data Processing
+  level: advanced
+
+Cloud Data Platform Setup:
+  aliases:
+    - Mise en place de plateforme cloud
+  category: Cloud
+  domains:
+    - Cloud
+  skills:
+    - Cloud Infrastructure Management
+  level: advanced
+
+Cloud Cost Optimization Project:
+  aliases:
+    - Projet d'optimisation des coûts cloud
+  category: Cloud
+  domains:
+    - Cloud
+  skills:
+    - Cost Optimization (Cloud/ML)
+  level: advanced
+
+Data Lake Implementation:
+  aliases:
+    - Implémentation de data lake
+  category: Data Engineering
+  domains:
+    - Big Data
+  skills:
+    - Data Warehousing
+    - Big Data Processing
+  level: advanced
+
+Data Quality Framework Implementation:
+  aliases:
+    - Mise en place d'un framework de qualité des données
+  category: Data Engineering
+  domains:
+    - Data Engineering
+  skills:
+    - Data Quality Monitoring
+    - Data Validation
+  level: advanced
+
+Data Lineage Documentation:
+  aliases:
+    - Documentation de la traçabilité des données
+  category: Data Governance
+  domains:
+    - Data Engineering
+  skills:
+    - Data Lineage Tracking
+  level: intermediate
+
+# =============================================================================
+# Lot 3 — EDA, reporting, Business Intelligence
+# =============================================================================
+
+Exploratory Data Analysis Report:
+  aliases:
+    - Rapport d'analyse exploratoire
+  category: Data Analysis
+  domains:
+    - Data Analysis
+  skills:
+    - Exploratory Data Analysis
+    - Data Storytelling
+  level: beginner
+
+KPI Dashboard Development:
+  aliases:
+    - Développement de tableau de bord d'indicateurs
+  category: Business Intelligence
+  domains:
+    - Business Intelligence
+  skills:
+    - Dashboard Design
+    - KPI Definition
+  level: intermediate
+
+Sales Performance Reporting:
+  aliases:
+    - Reporting de performance commerciale
+  category: Business Intelligence
+  domains:
+    - Business Intelligence
+  skills:
+    - Dashboard Design
+    - Report Writing
+  level: beginner
+
+Customer Behavior Analysis:
+  aliases:
+    - Analyse du comportement client
+  category: Data Analysis
+  domains:
+    - Data Analysis
+    - Business Intelligence
+  skills:
+    - Exploratory Data Analysis
+    - Correlation Analysis
+  level: intermediate
+
+Cohort Analysis:
+  aliases:
+    - Analyse de cohortes
+  category: Data Analysis
+  domains:
+    - Data Analysis
+    - Business Intelligence
+  skills:
+    - Exploratory Data Analysis
+  level: intermediate
+
+Funnel Analysis:
+  aliases:
+    - Analyse de tunnel de conversion
+  category: Data Analysis
+  domains:
+    - Data Analysis
+    - Business Intelligence
+  skills:
+    - Exploratory Data Analysis
+  level: intermediate
+
+Market Basket Analysis:
+  aliases:
+    - Analyse du panier d'achat
+  category: Data Analysis
+  domains:
+    - Data Analysis
+  skills:
+    - Exploratory Data Analysis
+  algorithms:
+    - Apriori
+  level: intermediate
+
+Ad-Hoc Business Query Resolution:
+  aliases:
+    - Résolution de requêtes métier ponctuelles
+  category: Data Analysis
+  domains:
+    - Data Analysis
+  skills:
+    - SQL Querying
+  level: beginner
+
+Executive Reporting:
+  aliases:
+    - Reporting exécutif
+  category: Business Intelligence
+  domains:
+    - Business Intelligence
+  skills:
+    - Data Storytelling
+    - Report Writing
+  level: intermediate
+
+Self-Service BI Enablement:
+  aliases:
+    - Mise en place de BI self-service
+  category: Business Intelligence
+  domains:
+    - Business Intelligence
+  skills:
+    - Dashboard Design
+  level: advanced
+
+Geospatial Market Analysis:
+  aliases:
+    - Analyse de marché géospatiale
+  category: Data Analysis
+  domains:
+    - Data Analysis
+  skills:
+    - Geospatial Data Analysis
+    - Geospatial Visualization
+  level: intermediate
+
+# =============================================================================
+# Lot 4 — Modélisation ML classique (projets)
+# =============================================================================
+
+Churn Prediction Project:
+  aliases:
+    - Projet de prédiction d'attrition
+  category: Model Development
+  domains:
+    - Machine Learning
+  skills:
+    - Churn Prediction
+    - Model Evaluation
+  level: intermediate
+
+Customer Segmentation Project:
+  aliases:
+    - Projet de segmentation client
+  category: Model Development
+  domains:
+    - Machine Learning
+    - Business Intelligence
+  skills:
+    - Customer Segmentation
+  level: intermediate
+
+Fraud Detection System Development:
+  aliases:
+    - Développement d'un système de détection de fraude
+  category: Model Development
+  domains:
+    - Machine Learning
+  skills:
+    - Fraud Detection Modeling
+    - Imbalanced Data Handling
+  level: advanced
+
+Credit Scoring Model Development:
+  aliases:
+    - Développement d'un modèle de scoring crédit
+  category: Model Development
+  domains:
+    - Machine Learning
+  skills:
+    - Credit Scoring Modeling
+  level: advanced
+
+Lead Scoring Model Development:
+  aliases:
+    - Développement d'un modèle de lead scoring
+  category: Model Development
+  domains:
+    - Machine Learning
+    - Business Intelligence
+  skills:
+    - Classification Modeling
+  level: intermediate
+
+Price Optimization Model Development:
+  aliases:
+    - Développement d'un modèle d'optimisation tarifaire
+  category: Model Development
+  domains:
+    - Machine Learning
+    - Business Intelligence
+  skills:
+    - Pricing Optimization
+  level: advanced
+
+Customer Lifetime Value Prediction Project:
+  aliases:
+    - Projet de prédiction de la valeur vie client
+  category: Model Development
+  domains:
+    - Machine Learning
+    - Business Intelligence
+  skills:
+    - Customer Lifetime Value Modeling
+  level: advanced
+
+Predictive Maintenance Model Development:
+  aliases:
+    - Développement d'un modèle de maintenance prédictive
+  category: Model Development
+  domains:
+    - Machine Learning
+    - Time Series
+  skills:
+    - Time Series Anomaly Detection
+    - Sensor Data Analysis
+  level: advanced
+
+Risk Assessment Model Development:
+  aliases:
+    - Développement d'un modèle d'évaluation du risque
+  category: Model Development
+  domains:
+    - Machine Learning
+    - Statistics
+  skills:
+    - Risk Modeling
+  level: advanced
+
+Marketing Campaign Response Modeling:
+  aliases:
+    - Modélisation de la réponse aux campagnes marketing
+  category: Model Development
+  domains:
+    - Machine Learning
+    - Business Intelligence
+  skills:
+    - Attribution Modeling
+  level: intermediate
+
+Employee Attrition Prediction Project:
+  aliases:
+    - Projet de prédiction d'attrition des employés
+  category: Model Development
+  domains:
+    - Machine Learning
+  skills:
+    - Churn Prediction
+  level: intermediate
+
+Insurance Claim Prediction Project:
+  aliases:
+    - Projet de prédiction de sinistres
+  category: Model Development
+  domains:
+    - Machine Learning
+  skills:
+    - Risk Modeling
+  level: advanced
+
+Model Hyperparameter Optimization:
+  aliases:
+    - Optimisation des hyperparamètres de modèle
+  category: Model Development
+  domains:
+    - Machine Learning
+  skills:
+    - Hyperparameter Tuning
+  level: advanced
+
+Model Benchmarking:
+  aliases:
+    - Benchmark de modèles
+  category: Model Development
+  domains:
+    - Machine Learning
+  skills:
+    - Model Selection
+    - Model Evaluation
+  level: intermediate
+
+Feature Engineering Pipeline Development:
+  aliases:
+    - Développement d'un pipeline de feature engineering
+  category: Model Development
+  domains:
+    - Machine Learning
+  skills:
+    - Feature Engineering
+  level: intermediate
+
+Model Explainability Report:
+  aliases:
+    - Rapport d'explicabilité de modèle
+  category: Model Development
+  domains:
+    - Machine Learning
+  skills:
+    - Model Interpretability
+  level: advanced
+
+Model Fairness Audit Project:
+  aliases:
+    - Projet d'audit d'équité de modèle
+  category: Responsible AI
+  domains:
+    - Machine Learning
+  skills:
+    - Model Fairness Auditing
+  level: advanced
+
+# =============================================================================
+# Lot 5 — Deep Learning, NLP, Computer Vision, Time Series, RL (projets)
+# =============================================================================
+
+Image Classification System Development:
+  aliases:
+    - Développement d'un système de classification d'images
+  category: Model Development
+  domains:
+    - Computer Vision
+  skills:
+    - Image Classification
+  level: advanced
+
+Object Detection System Development:
+  aliases:
+    - Développement d'un système de détection d'objets
+  category: Model Development
+  domains:
+    - Computer Vision
+  skills:
+    - Object Detection Modeling
+  level: advanced
+
+Medical Imaging Diagnosis Support Project:
+  aliases:
+    - Projet d'aide au diagnostic par imagerie médicale
+  category: Model Development
+  domains:
+    - Computer Vision
+  skills:
+    - Medical Image Analysis
+  level: advanced
+
+Quality Control Vision System Development:
+  aliases:
+    - Développement d'un système de contrôle qualité visuel
+  category: Model Development
+  domains:
+    - Computer Vision
+  skills:
+    - Image Classification
+    - Object Detection Modeling
+  level: advanced
+
+Chatbot Development Project:
+  aliases:
+    - Projet de développement de chatbot
+  category: Model Development
+  domains:
+    - Natural Language Processing
+  skills:
+    - Chatbot Development
+  level: advanced
+
+Sentiment Analysis Tool Development:
+  aliases:
+    - Développement d'un outil d'analyse de sentiment
+  category: Model Development
+  domains:
+    - Natural Language Processing
+  skills:
+    - Sentiment Analysis Modeling
+  level: intermediate
+
+Customer Review Analysis Project:
+  aliases:
+    - Projet d'analyse des avis clients
+  category: Model Development
+  domains:
+    - Natural Language Processing
+  skills:
+    - Sentiment Analysis Modeling
+    - Topic Modeling
+  level: intermediate
+
+Document Classification System:
+  aliases:
+    - Système de classification de documents
+  category: Model Development
+  domains:
+    - Natural Language Processing
+  skills:
+    - Text Classification
+  level: intermediate
+
+Resume Screening Automation:
+  aliases:
+    - Automatisation du tri de CV
+  category: Model Development
+  domains:
+    - Natural Language Processing
+  skills:
+    - Text Classification
+    - Named Entity Extraction
+  level: advanced
+
+Internal Knowledge Base Chatbot (RAG):
+  aliases:
+    - Chatbot de base de connaissances interne (RAG)
+  category: Model Development
+  domains:
+    - Natural Language Processing
+  skills:
+    - LLM Application Development
+  level: advanced
+
+Text Summarization Tool Development:
+  aliases:
+    - Développement d'un outil de résumé automatique
+  category: Model Development
+  domains:
+    - Natural Language Processing
+  skills:
+    - LLM Application Development
+  level: advanced
+
+Sales Forecasting Project:
+  aliases:
+    - Projet de prévision des ventes
+  category: Model Development
+  domains:
+    - Time Series
+  skills:
+    - Time Series Forecasting
+    - Demand Forecasting
+  level: intermediate
+
+Inventory Optimization Project:
+  aliases:
+    - Projet d'optimisation des stocks
+  category: Model Development
+  domains:
+    - Time Series
+    - Business Intelligence
+  skills:
+    - Inventory Forecasting
+  level: intermediate
+
+Energy Consumption Forecasting Project:
+  aliases:
+    - Projet de prévision de consommation énergétique
+  category: Model Development
+  domains:
+    - Time Series
+  skills:
+    - Time Series Forecasting
+  level: advanced
+
+Web Traffic Forecasting Project:
+  aliases:
+    - Projet de prévision de trafic web
+  category: Model Development
+  domains:
+    - Time Series
+  skills:
+    - Time Series Forecasting
+  level: intermediate
+
+Product Recommendation Engine Development:
+  aliases:
+    - Développement d'un moteur de recommandation produit
+  category: Model Development
+  domains:
+    - Recommender Systems
+  skills:
+    - Recommender System Design
+  level: advanced
+
+Content Recommendation System Development:
+  aliases:
+    - Développement d'un système de recommandation de contenu
+  category: Model Development
+  domains:
+    - Recommender Systems
+  skills:
+    - Recommender System Design
+    - Recommendation Ranking
+  level: advanced
+
+Dynamic Pricing Reinforcement Learning Project:
+  aliases:
+    - Projet de tarification dynamique par apprentissage par renforcement
+  category: Model Development
+  domains:
+    - Reinforcement Learning
+  skills:
+    - Reinforcement Learning Modeling
+  level: advanced
+
+Supply Chain Route Optimization (RL):
+  aliases:
+    - Optimisation d'itinéraires logistiques (RL)
+  category: Model Development
+  domains:
+    - Reinforcement Learning
+  skills:
+    - Reinforcement Learning Modeling
+  level: advanced
+
+# =============================================================================
+# Lot 6 — MLOps, déploiement, industrialisation
+# =============================================================================
+
+Model Deployment to Production:
+  aliases:
+    - Déploiement de modèle en production
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - Model Deployment
+  level: advanced
+
+ML API Development:
+  aliases:
+    - Développement d'API de machine learning
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - API Development
+    - Model Serving
+  level: advanced
+
+Model Monitoring System Setup:
+  aliases:
+    - Mise en place d'un système de monitoring de modèle
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - Model Monitoring
+  level: advanced
+
+Model Retraining Pipeline Development:
+  aliases:
+    - Développement d'un pipeline de réentraînement de modèle
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - Model Retraining Strategy
+  level: advanced
+
+CI/CD Pipeline for ML Setup:
+  aliases:
+    - Mise en place d'un pipeline CI/CD pour le ML
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - CI/CD for ML
+  level: advanced
+
+Model Containerization Project:
+  aliases:
+    - Projet de conteneurisation de modèle
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - Containerization
+  level: intermediate
+
+Experiment Tracking System Setup:
+  aliases:
+    - Mise en place d'un système de suivi d'expériences
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - Experiment Tracking
+  level: intermediate
+
+Feature Store Implementation:
+  aliases:
+    - Implémentation d'un feature store
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - Feature Store Management
+  level: advanced
+
+Legacy Model Migration Project:
+  aliases:
+    - Projet de migration de modèle legacy
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - Model Deployment
+  level: advanced
+
+A/B Test for Model Rollout:
+  aliases:
+    - Test A/B pour le déploiement de modèle
+  category: MLOps
+  domains:
+    - MLOps
+    - Statistics
+  skills:
+    - A/B Test Design
+    - Model Monitoring
+  level: advanced
+
+Model Cost and Latency Optimization:
+  aliases:
+    - Optimisation du coût et de la latence des modèles
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - Cost Optimization (Cloud/ML)
+    - GPU Acceleration
+  level: advanced
+
+# =============================================================================
+# Lot 7 — Collaboration, veille, formation
+# =============================================================================
+
+Data Science Onboarding Documentation:
+  aliases:
+    - Documentation d'onboarding data science
+  category: Collaboration
+  domains:
+    - Data Science
+  skills:
+    - Report Writing
+  level: beginner
+
+Cross-Functional Workshop Facilitation:
+  aliases:
+    - Animation d'ateliers transverses
+  category: Collaboration
+  domains:
+    - Business Intelligence
+  skills:
+    - Stakeholder Communication
+  level: intermediate
+
+Technical Presentation to Non-Technical Stakeholders:
+  aliases:
+    - Présentation technique à des non-spécialistes
+  category: Collaboration
+  domains:
+    - Business Intelligence
+  skills:
+    - Data Storytelling
+    - Stakeholder Communication
+  level: intermediate
+
+Data Science Team Mentoring:
+  aliases:
+    - Mentorat d'équipe data science
+  category: Collaboration
+  domains:
+    - Data Science
+  skills:
+    - Code Review
+  level: advanced
+
+Research Paper Implementation:
+  aliases:
+    - Implémentation de papier de recherche
+  category: Research
+  domains:
+    - Deep Learning
+  skills:
+    - Neural Network Design
+  level: advanced
+
+Technology Watch and Benchmarking:
+  aliases:
+    - Veille technologique et benchmark d'outils
+  category: Research
+  domains:
+    - Data Science
+  skills:
+    - Model Benchmarking
+  level: intermediate
+
+Proof of Concept Development:
+  aliases:
+    - Développement de preuve de concept
+  category: Scoping
+  domains:
+    - Data Science
+  skills:
+    - Feasibility Study
+  level: intermediate
+
+Data Science Competition Participation:
+  aliases:
+    - Participation à des compétitions de data science
+  category: Research
+  domains:
+    - Machine Learning
+  skills:
+    - Model Benchmarking
+    - Ensemble Modeling
+  level: intermediate
+
+# =============================================================================
+# Lot 8 — Missions sectorielles (retail, banque, santé, RH, logistique...)
+# =============================================================================
+
+Retail Demand Planning Support:
+  aliases:
+    - Appui à la planification de la demande retail
+  category: Sector-Specific
+  domains:
+    - Time Series
+    - Business Intelligence
+  skills:
+    - Demand Forecasting
+  level: intermediate
+
+E-commerce Personalization Project:
+  aliases:
+    - Projet de personnalisation e-commerce
+  category: Sector-Specific
+  domains:
+    - Recommender Systems
+  skills:
+    - Recommender System Design
+  level: advanced
+
+Banking Anti-Money Laundering Detection:
+  aliases:
+    - Détection de blanchiment d'argent
+  category: Sector-Specific
+  domains:
+    - Machine Learning
+  skills:
+    - Fraud Detection Modeling
+  level: advanced
+
+Insurance Underwriting Model Support:
+  aliases:
+    - Appui à la modélisation de souscription assurance
+  category: Sector-Specific
+  domains:
+    - Machine Learning
+  skills:
+    - Risk Modeling
+  level: advanced
+
+Healthcare Patient Readmission Prediction:
+  aliases:
+    - Prédiction de réadmission hospitalière
+  category: Sector-Specific
+  domains:
+    - Machine Learning
+  skills:
+    - Classification Modeling
+  level: advanced
+
+Clinical Trial Data Analysis:
+  aliases:
+    - Analyse de données d'essais cliniques
+  category: Sector-Specific
+  domains:
+    - Statistics
+  skills:
+    - Hypothesis Testing
+    - Survival Analysis
+  level: advanced
+
+HR Workforce Analytics Project:
+  aliases:
+    - Projet d'analyse RH
+  category: Sector-Specific
+  domains:
+    - Business Intelligence
+  skills:
+    - Employee Attrition Prediction
+  level: intermediate
+
+Logistics Route Optimization Project:
+  aliases:
+    - Projet d'optimisation d'itinéraires logistiques
+  category: Sector-Specific
+  domains:
+    - Machine Learning
+  skills:
+    - Geospatial Data Analysis
+  level: advanced
+
+Manufacturing Predictive Maintenance Rollout:
+  aliases:
+    - Déploiement de maintenance prédictive industrielle
+  category: Sector-Specific
+  domains:
+    - Time Series
+  skills:
+    - Sensor Data Analysis
+  level: advanced
+
+Energy Grid Load Forecasting:
+  aliases:
+    - Prévision de charge sur réseau énergétique
+  category: Sector-Specific
+  domains:
+    - Time Series
+  skills:
+    - Time Series Forecasting
+  level: advanced
+
+Public Sector Fraud Detection:
+  aliases:
+    - Détection de fraude dans le secteur public
+  category: Sector-Specific
+  domains:
+    - Machine Learning
+  skills:
+    - Fraud Detection Modeling
+  level: advanced
+
+Telecom Network Anomaly Detection:
+  aliases:
+    - Détection d'anomalies réseau télécom
+  category: Sector-Specific
+  domains:
+    - Time Series
+    - Machine Learning
+  skills:
+    - Time Series Anomaly Detection
+  level: advanced
+
+Agritech Yield Prediction Project:
+  aliases:
+    - Projet de prédiction de rendement agricole
+  category: Sector-Specific
+  domains:
+    - Machine Learning
+  skills:
+    - Regression Modeling
+    - Geospatial Data Analysis
+  level: advanced
+
+Real Estate Price Estimation Model:
+  aliases:
+    - Modèle d'estimation de prix immobilier
+  category: Sector-Specific
+  domains:
+    - Machine Learning
+  skills:
+    - Regression Modeling
+  level: intermediate
+
+Sports Analytics Performance Project:
+  aliases:
+    - Projet d'analyse de performance sportive
+  category: Sector-Specific
+  domains:
+    - Data Analysis
+  skills:
+    - Exploratory Data Analysis
+  level: intermediate
+
+Marketing Attribution Analysis:
+  aliases:
+    - Analyse d'attribution marketing
+  category: Sector-Specific
+  domains:
+    - Business Intelligence
+  skills:
+    - Attribution Modeling
+  level: intermediate
+
+Customer Support Ticket Classification:
+  aliases:
+    - Classification des tickets de support client
+  category: Sector-Specific
+  domains:
+    - Natural Language Processing
+  skills:
+    - Text Classification
+  level: intermediate
+
+# =============================================================================
+# Lot 9 — Expérimentation, causalité, responsable/éthique, veille
+# =============================================================================
+
+Landing Page Conversion A/B Test:
+  aliases:
+    - Test A/B de conversion de landing page
+  category: Experimentation
+  domains:
+    - Statistics
+  skills:
+    - A/B Test Design
+  level: intermediate
+
+Pricing Experiment Design:
+  aliases:
+    - Conception d'expérience de tarification
+  category: Experimentation
+  domains:
+    - Statistics
+  skills:
+    - Experimental Design
+  level: advanced
+
+Marketing Incrementality Study:
+  aliases:
+    - Étude d'incrémentalité marketing
+  category: Experimentation
+  domains:
+    - Statistics
+  skills:
+    - Causal Analysis
+    - Uplift Modeling
+  level: advanced
+
+Product Feature Impact Analysis:
+  aliases:
+    - Analyse d'impact de fonctionnalité produit
+  category: Experimentation
+  domains:
+    - Statistics
+  skills:
+    - Causal Analysis
+  level: advanced
+
+Multi-Armed Bandit Rollout for Recommendations:
+  aliases:
+    - Déploiement de bandit manchot pour recommandations
+  category: Experimentation
+  domains:
+    - Reinforcement Learning
+  skills:
+    - Multi-Armed Bandit Optimization
+  level: advanced
+
+Algorithmic Bias Assessment:
+  aliases:
+    - Évaluation des biais algorithmiques
+  category: Responsible AI
+  domains:
+    - Machine Learning
+  skills:
+    - Model Fairness Auditing
+  level: advanced
+
+AI Ethics Policy Contribution:
+  aliases:
+    - Contribution à une politique d'éthique de l'IA
+  category: Responsible AI
+  domains:
+    - Machine Learning
+  skills:
+    - Model Fairness Auditing
+    - Data Governance
+  level: advanced
+
+Model Documentation for Audit:
+  aliases:
+    - Documentation de modèle pour audit
+  category: Responsible AI
+  domains:
+    - MLOps
+  skills:
+    - Model Cards Documentation
+  level: intermediate
+
+Data Privacy Impact Assessment:
+  aliases:
+    - Analyse d'impact sur la vie privée
+  category: Data Governance
+  domains:
+    - Data Engineering
+  skills:
+    - Data Anonymization
+    - Data Governance
+  level: advanced
+
+Synthetic Data Generation for Testing:
+  aliases:
+    - Génération de données synthétiques pour les tests
+  category: Data Engineering
+  domains:
+    - Data Engineering
+  skills:
+    - Synthetic Data Generation
+  level: intermediate
+
+Internal Data Science Tool Development:
+  aliases:
+    - Développement d'outil interne pour l'équipe data
+  category: Collaboration
+  domains:
+    - Data Science
+  skills:
+    - Package Development
+  level: advanced
+
+Model Migration Between Frameworks:
+  aliases:
+    - Migration de modèle entre frameworks
+  category: MLOps
+  domains:
+    - MLOps
+  skills:
+    - Model Deployment
+  level: advanced
+
+Data Science Portfolio Project:
+  aliases:
+    - Projet de portfolio data science
+  category: Research
+  domains:
+    - Data Science
+  skills:
+    - Exploratory Data Analysis
+    - Model Benchmarking
+  level: beginner
+
+Kaggle-Style Competition Pipeline:
+  aliases:
+    - Pipeline de type compétition Kaggle
+  category: Research
+  domains:
+    - Machine Learning
+  skills:
+    - Ensemble Modeling
+    - Hyperparameter Tuning
+  level: intermediate
+
+Data Storytelling for Executive Committee:
+  aliases:
+    - Narration de données pour comité de direction
+  category: Collaboration
+  domains:
+    - Business Intelligence
+  skills:
+    - Data Storytelling
+  level: advanced

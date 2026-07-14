@@ -1,0 +1,202 @@
+items:
+  AWS:
+    aliases:
+      - Amazon Web Services
+    domains:
+      - Cloud
+      - Data Engineering
+      - Machine Learning
+    related:
+      - S3
+      - EC2
+      - Lambda
+      - Redshift
+      - SageMaker
+
+  Azure:
+    aliases:
+      - Microsoft Azure
+    domains:
+      - Cloud
+      - Data Engineering
+      - Machine Learning
+    related:
+      - Synapse Analytics
+      - Databricks
+      - Azure ML
+      - Data Factory
+
+  GCP:
+    aliases:
+      - Google Cloud Platform
+    domains:
+      - Cloud
+      - Data Engineering
+      - Machine Learning
+    related:
+      - BigQuery
+      - Vertex AI
+      - Cloud Storage
+      - Dataflow
+
+  SageMaker:
+    aliases: []
+    domains:
+      - Machine Learning
+      - MLOps
+    related:
+      - AWS
+      - Model Deployment
+      - Feature Store
+
+  Vertex AI:
+    aliases:
+      - VertexAI
+    domains:
+      - Machine Learning
+      - MLOps
+    related:
+      - GCP
+      - Model Registry
+      - Pipelines
+
+  Azure ML:
+    aliases:
+      - Azure Machine Learning
+    domains:
+      - Machine Learning
+      - MLOps
+    related:
+      - Azure
+      - Model Registry
+      - Pipelines
+
+  Databricks:
+    aliases: []
+    domains:
+      - Data Engineering
+      - Machine Learning
+      - Analytics
+    related:
+      - Spark
+      - Delta Lake
+      - Azure
+      - AWS
+
+  Snowpark:
+    aliases: []
+    domains:
+      - Data Engineering
+      - Machine Learning
+    related:
+      - Snowflake
+      - Python
+      - SQL
+
+  Cloud Storage:
+    aliases: []
+    domains:
+      - Cloud
+      - Data Engineering
+    related:
+      - GCP
+      - AWS
+      - Azure
+
+  S3:
+    aliases:
+      - Amazon S3
+    domains:
+      - Cloud
+      - Data Engineering
+    related:
+      - AWS
+      - Object Storage
+      - Data Lake
+
+  EC2:
+    aliases:
+      - Amazon EC2
+    domains:
+      - Cloud
+      - Infrastructure
+    related:
+      - AWS
+      - VM
+      - Container
+
+  Lambda:
+    aliases:
+      - AWS Lambda
+    domains:
+      - Cloud
+      - Serverless
+    related:
+      - AWS
+      - Event Driven
+      - API
+
+  Data Factory:
+    aliases:
+      - Azure Data Factory
+    domains:
+      - Data Engineering
+      - ETL
+    related:
+      - Azure
+      - Pipelines
+      - Orchestration
+
+  Synapse Analytics:
+    aliases: []
+    domains:
+      - Analytics
+      - Data Engineering
+    related:
+      - Azure
+      - SQL
+      - Data Warehouse
+
+  Redshift:
+    aliases:
+      - Amazon Redshift
+    domains:
+      - Analytics
+      - Data Warehousing
+    related:
+      - AWS
+      - SQL
+      - Snowflake
+
+  Cloud Run:
+    aliases: []
+    domains:
+      - Cloud
+      - Deployment
+    related:
+      - GCP
+      - Containers
+      - APIs
+
+  App Service:
+    aliases:
+      - Azure App Service
+    domains:
+      - Cloud
+      - Deployment
+    related:
+      - Azure
+      - Web Apps
+      - APIs
+
+  Kubernetes:
+    aliases:
+      - K8s
+    domains:
+      - Cloud
+      - MLOps
+      - Infrastructure
+    related:
+      - Docker
+      - Helm
+      - Orchestration
