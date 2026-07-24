@@ -1,0 +1,21 @@
+{
+  "schema_version": "public-evaluation-contract-example-v1",
+  "candidate": "example-candidate",
+  "control": "example-control",
+  "holdout": {
+    "frozen": true,
+    "opened_during_candidate_preparation": false
+  },
+  "review": {
+    "blind": true,
+    "human_required": true,
+    "automatic_promotion": false
+  },
+  "gates": [
+    "deterministic_contracts",
+    "neural_quality",
+    "latency_budget",
+    "protected_file_drift",
+    "rollback_available"
+  ]
+}

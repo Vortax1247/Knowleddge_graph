@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title description">
+  <title id="title">Knowledge Core public architecture</title>
+  <description id="description">Flow from the user through conversation and governance to local LLM, knowledge, memory, evaluation and controlled outputs.</description>
+  <rect width="1200" height="680" fill="#111714"/>
+  <style>
+    .label{font:600 22px Arial,sans-serif;fill:#f4f1e8}
+    .small{font:400 15px Arial,sans-serif;fill:#aeb8b1}
+    .number{font:700 13px Arial,sans-serif;fill:#111714}
+    .box{fill:#18211c;stroke:#536058;stroke-width:2}
+    .gate{fill:#c9ff4a;stroke:#c9ff4a;stroke-width:2}
+    .line{stroke:#76847b;stroke-width:2;fill:none}
+    .dash{stroke:#c9ff4a;stroke-width:2;fill:none;stroke-dasharray:8 8}
+  </style>
+  <text x="70" y="68" class="small">KNOWLEDGE CORE / PUBLIC BOUNDARY</text>
+  <text x="70" y="112" class="label">Generation, knowledge, memory and authority remain separate.</text>
+  <rect x="70" y="170" width="210" height="92" rx="8" class="box"/>
+  <text x="105" y="207" class="label">User / Desktop</text>
+  <text x="105" y="235" class="small">Conversation intent</text>
+  <path d="M280 216H375" class="line"/>
+  <rect x="375" y="170" width="220" height="92" rx="8" class="box"/>
+  <text x="410" y="207" class="label">Conversation</text>
+  <text x="410" y="235" class="small">Bounded contract</text>
+  <path d="M595 216H690" class="line"/>
+  <rect x="690" y="160" width="230" height="112" rx="8" class="gate"/>
+  <circle cx="720" cy="190" r="13" fill="#111714"/>
+  <text x="716" y="195" class="number" fill="#c9ff4a">3</text>
+  <text x="750" y="207" class="label" style="fill:#111714">Governance</text>
+  <text x="750" y="235" class="small" style="fill:#354239">Permissions · audit</text>
+  <path d="M920 216H1030" class="line"/>
+  <rect x="1030" y="170" width="100" height="92" rx="46" class="box"/>
+  <text x="1051" y="207" class="label">HITL</text>
+  <text x="1048" y="235" class="small">Human</text>
+  <path d="M805 272V350" class="line"/>
+  <rect x="70" y="350" width="210" height="112" rx="8" class="box"/>
+  <text x="105" y="392" class="label">Local LLM</text>
+  <text x="105" y="422" class="small">Language proposal</text>
+  <rect x="350" y="350" width="210" height="112" rx="8" class="box"/>
+  <text x="385" y="392" class="label">Knowledge</text>
+  <text x="385" y="422" class="small">Graph · provenance</text>
+  <rect x="630" y="350" width="210" height="112" rx="8" class="box"/>
+  <text x="665" y="392" class="label">Memory</text>
+  <text x="665" y="422" class="small">Isolated namespace</text>
+  <rect x="910" y="350" width="220" height="112" rx="8" class="box"/>
+  <text x="945" y="392" class="label">Evaluation</text>
+  <text x="945" y="422" class="small">Frozen holdout</text>
+  <path d="M805 310H175V350M805 310H455V350M805 310H735V350M805 310H1020V350" class="line"/>
+  <path d="M175 462V545H1020V462" class="dash"/>
+  <rect x="350" y="535" width="500" height="82" rx="8" class="gate"/>
+  <text x="400" y="574" class="label" style="fill:#111714">Canary · decision · rollback · controlled output</text>
+  <text x="400" y="599" class="small" style="fill:#354239">No automatic promotion or external execution</text>
+</svg>
