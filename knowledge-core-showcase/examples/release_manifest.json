@@ -1,0 +1,15 @@
+{
+  "schema_version": "public-release-manifest-example-v1",
+  "release": "example-governed-release",
+  "candidate_sha256": "redacted-example",
+  "parent_release": "example-parent",
+  "gates": {
+    "deterministic_contracts": true,
+    "frozen_holdout": true,
+    "blind_human_review": true,
+    "canary": true,
+    "rollback_available": true,
+    "owner_approval": true
+  },
+  "automatic_promotion": false
+}
