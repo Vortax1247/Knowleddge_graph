@@ -6,7 +6,7 @@ Knowledge Core explores how to build a personal GenAI system without confusing l
 
 ![Knowledge Core architecture](assets/architecture.svg)
 
-Why I built it
+## Why I built it
 
 I wanted to learn beyond a single chatbot demonstration:
 
